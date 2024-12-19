@@ -3,12 +3,12 @@
 */
 
 #include <stdio.h>
-
+//mudança
 int calc_fat(int);
 
 int main()
 {
-    int numero = 13;
+    int numero = 5; //modifiquei de 13 para 5
     int num_fat = calc_fat(numero);
     printf("\nO fatorial de %d eh: %d", numero , num_fat);
     return 0;
@@ -24,5 +24,6 @@ int calc_fat(int b)
         printf(" %d",fatorial);
     }
     return fatorial;
+    
 }
 
