@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 //mudança
+//só mais uma mudança
 int calc_fat(int);
 
 int main()
